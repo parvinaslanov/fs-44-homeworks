@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="width: 55%; max-width: 1211px; margin-inline: auto;">
+    <nav>
+        <div>
+            <div>
+                <!-- Logo -->
+                <div>Portfolio's navbar</div>
+                <!-- Menu -->
+                <a href="#landing-page">Ana Səhifə</a>
+                <a href="#about">Haqqımda</a>
+                <a href="#skills">Bacarıqlar</a>
+                <a href="#contact">Əlaqə</a>
+                <a href="#more-info-about-me">Haqqımda daha bir məlumat :P</a>
+            </div>
+        </div>
+    </nav>
+<!-- Ana Səhifə -->
+    <!-- Başlıq -->
+    <section id="landing-page">
+        <header>
+            <h1>Portfolio Səhifəsi</h1>
+            <p>
+                <strong>HTML </strong>öyrənmək maraqlıdır! Mən <em>vazkeçmədən </em>inkişaf edirəm.
+            </p>
+            <img src="https://cdn.hswstatic.com/gif/nikola-tesla-orig.jpg" width="350"
+                alt="Sir Nikola Tesla teaching a lecture" title="Sir Nikola Tesla teaching a lecture">
+        </header>
+    </section>
+<!-- Haqqımda -->
+    <!-- Şəkil -->
+    <section id="about">
+        <h2>Haqqımda</h2>
+        <img src="https://i.natgeofe.com/n/2063f985-fd8c-4139-acfe-f0c8bc0e68e0/72053.jpg" width="70%"
+            alt="Sir Nikola Tesla in verge of a new idea" title="Sir Nikola Tesla in verge of a new idea">
+        <p>Mən proqramlaşdırma sahəsində çalışıram, <strong>HTML</strong>,<em> və </em><ins>Python</ins> üzrə təcrübəm
+            var.
+        </p>
+        <!-- Audio və Video -->
+        <h2>Maraqlarım</h2>
+        <h3>Sevdiyim mahnılar</h3>
+        <audio controls>
+            <h5>2Pac - Changes</h5>
+            <source src="./songs/Rob Dougan - Clubbed to Death (Kurayamino Variation).mp3" type="audio/mpeg" ;
+                codecs="mp3">
+            <p>Sizin brauzeriniz audio dəstəkləmir.</p>
+        </audio>
+        <h3>Sevdiyim film</h3>
+        <video controls
+            poster="https://e0.pxfuel.com/wallpapers/269/590/desktop-wallpaper-matrix-trilogy-movie-dual-wide-widescreen-16-9-widescreen-background-20678-2560x1440-matrix.jpg">
+            <source src="./movies/Matrix Trailer HD (1999).mp4" type="video/mp4">
+        </video>
+        <!-- Linklər -->
+        <h2>Əlaqə</h2>
+        <a href="https://az.linkedin.com/in/parvinaslanov">LinkedIn profilim</a>
+        <br>
+        <a href="mailto:parveenaslanov@gmail.com">Əlaqə e-poçt adresim</a>
+    </section>
+<!-- Bacarıqlar -->
+    <!-- Cədvəl -->
+    <section id="skills">
+        <h2>Bacarıqlar</h2>
+        <table border="1" cellspacing="0" cellpadding="5" style="width: 100%; height: 100%;">
+            <thead>
+                <tr>
+                    <th rowspan="2">Dil</th>
+                    <th colspan="2">Səviyyə</th>
+                </tr>
+                <tr>
+                    <th>Yazılı</th>
+                    <th>Şifahi</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Yüksək</td>
+                    <td>Orta</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Python</td>
+                    <td>Yüksək</td>
+                    <td>Yüksək</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Hal-hazırda layihələrdə tətbiq olunmur</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- Siyahılar -->
+    <section>
+        <h3>Numerik Siyahı</h3>
+        <ol>
+            <li>Frontend Bacarıqlar</li>
+            <ul type="disc">
+                <li>HTML</li>
+            </ul>
+            <li>Backend Bacarıqlar</li>
+            <ul type="disc">
+                <li>Python</li>
+            </ul>
+        </ol>
+
+        <h3>Nöqtəli Siyahı</h3>
+        <ul type="circle">
+            <li>Hobbilər</li>
+            <ul type="disc">
+                <li>Kitab oxumaq</li>
+                <ul type="disc">
+                    <li>Fikirləşdirici kitablar</li>
+                    <li>Fantastika</li>
+                </ul>
+                <li>Film izləmək</li>
+                <li>Yeni bacarıqlar öyrənmək</li>
+            </ul>
+        </ul>
+    </section>
+<!-- Əlaqə -->
+    <!-- Form -->
+    <section id="contact">
+        <h2>Əlaqə Saxlayın</h2>
+        <form action="#">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label>
+                    Adınız:
+                    <input type="text" name="name" required>
+                </label>
+                <br><br>
+                <label>
+                    E-poçt:
+                    <input type="email" name="email" required>
+                </label>
+                <br><br>
+                <label>
+                    Mesajınız:
+                    <textarea name="message" rows="3" cols="48" required></textarea>
+                </label>
+                <br><br>
+                <button type="submit">Göndər</button>
+            </fieldset>
+        </form>
+    </section>
+<!-- Haqqımda daha bir məlumat :) -->
+    <!-- iframe -->
+    <section id="more-info-about-me">
+        <h2>Yaşadığım Yer</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87230884.35884358!2d-12.328587300000013!3d-45.41641488153261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb09dff882a7809e1%3A0xb08d0a385dc8c7c7!2sAntarctica!5e1!3m2!1sen!2saz!4v1764807229346!5m2!1sen!2saz"
+            width="600" height="450" style="border:0;" allowfullscreen="false" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+</body>
+
+</html>

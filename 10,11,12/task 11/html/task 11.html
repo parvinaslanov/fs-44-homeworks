@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+    <style>
+        /* Align all table cell text to left */
+        td {
+            text-align: left;
+            padding: 5px 10px;
+        }
+
+        /* Collapse borders and set table width */
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            margin: auto;
+        }
+
+        /* Space labels for checkboxes inline */
+        td label {
+            margin-right: 15px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <table border="2">
+            <tbody>
+                <tr>
+                    <td><strong>First Name</strong></td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Last Name</strong></td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Email</strong></td>
+                    <td><input type="email" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Password</strong></td>
+                    <td><input type="password" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Re-enter password</strong></td>
+                    <td><input type="password" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Gender</strong></td>
+                    <td>
+                        <select name="gender_select" id="gender_select">
+                            <option value="select">--Select--</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="403">?</option>
+                            <option value="needshelp">There is only two genders, get some help.</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Age</strong></td>
+                    <td><input type="number" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Phone Number</strong></td>
+                    <td><input type="tel" /></td>
+                </tr>
+                <tr>
+                    <td><strong>Home Address</strong></td>
+                    <td><textarea name="address" id="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td><strong>State</strong></td>
+                    <td>
+                        <select name="allstates" id="allstates">
+                            <option value="select">--Select--</option>
+                            <option value="Aghjabadi">Ağcabədi</option>
+                            <option value="Aghdam">Ağdam</option>
+                            <option value="Aghdash">Ağdaş</option>
+                            <option value="Aghsu">Ağsu</option>
+                            <option value="Barda">Bərdə</option>
+                            <option value="Jabrayil">Cəbrayıl</option>
+                            <option value="Fizuli">Füzuli</option>
+                            <option value="Gabala">Qəbələ</option>
+                            <option value="Shaki">Şəki</option>
+                            <option value="Shamakhi">Şamaxı</option>
+                            <option value="Baku">Bakı</option>
+                            <option value="Sumgayit">Sumqayıt</option>
+                            <option value="Ganja">Gəncə</option>
+                            <option value="Mingachevir">Mingəçevir</option>
+                            <option value="Nakhchivan">Naxçıvan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Country</strong></td>
+                    <td>
+                        <select name="country_select" id="country_select">
+                            <option value="country">Azerbaijan</option>
+                            <option value="403 forbidden">There is no option, Vətən Xaini!</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Language</strong></td>
+                    <td>
+                        <!-- Inline language checkboxes -->
+                        <label><input type="checkbox" required name="cn_mandarin" /> Chinese(Mandarin)</label>
+                        <label><input type="checkbox" required name="cn_cantonese" /> Chinese(Cantonese)</label>
+                        <label><input type="checkbox" required name="azerbaijani" /> Azerbaijani</label>
+                        <label><input type="checkbox" required name="russian" /> Russian</label>
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <!-- Terms & declaration checkbox row spanning full table width -->
+                <tr>
+                    <td colspan="2">
+                        <label>
+                            <input type="checkbox" id="sign_checkbox" required />
+                            Hereby I declare all the given details are true
+                        </label>
+                    </td>
+                </tr>
+
+                <!-- Google login link row, centered -->
+                <tr>
+                    <td colspan="2" style="text-align: center; padding: 10px 0;">
+                        Log in to
+                        <a href="https://accounts.google.com" target="_blank">Google</a> website
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br />
+        <!-- Center submit button -->
+        <div style="text-align:center;">
+            <button type="submit" name="register_form">Register</button>
+        </div>
+    </form>
+</body>
+
+</html>

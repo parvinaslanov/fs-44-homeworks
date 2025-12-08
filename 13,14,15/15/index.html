@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="max-width:1200px; width:60%; margin:auto;">
+    <!-- Header -->
+    <header id="top">
+        <h1>Interstellar Wildlife Catalog</h1>
+        <p>Documenting life forms discovered across distant galaxies.</p>
+
+        <nav>
+            <a href="#species"></a>
+            <a href="#bio_scanner"></a>
+            <a href="#habitats"></a>
+            <a href="#genetics"></a>
+            <a href="#contact"></a>
+        </nav>
+        <img src="https://picsum.photos/seed/galaxy-header/1200/450" width="100%" alt="Galaxy">
+
+    </header>
+    <hr>
+
+    <!-- Species -->
+    <section id="species">
+        <h3>Alien Species</h3>
+        <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:20px;">
+            <article>
+                <img src="https://picsum.photos/seed/serpent/400/300" alt="Arcturian Ice Serpent">
+                <p>Lives beneath frozen oceans and glows in total darkness.</p>
+            </article>
+            <article>
+                <img src="https://picsum.photos/seed/beetle/400/300" alt="Voltar Beetle Titan">
+                <p>A metal-shelled insect capable of transmitting radio waves.</p>
+            </article>
+            <article>
+                <img src="https://picsum.photos/seed/ray/400/300" alt="Nebula Cloud Ray">
+                <p>A floating organism that feeds on starlight particles.</p>
+            </article>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Bio Scanner Table -->
+    <section id="scanner">
+        <h3>Bio Scanner Index</h3>
+        <table border="2" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Species</th>
+                    <th>Avg Size</th>
+                    <th>Threat Level</th>
+                    <th>Home Galaxy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ice Serpent</td>
+                    <td>14 meters</td>
+                    <td>Medium</td>
+                    <td>Arcturus</td>
+                </tr>
+                <tr>
+                    <td>Beetle Titan</td>
+                    <td>2 meters</td>
+                    <td>Low</td>
+                    <td>Voltar System</td>
+                </tr>
+                <tr>
+                    <td>Cloud Ray</td>
+                    <td>8 meters</td>
+                    <td>Low</td>
+                    <td>Tri-Nebula</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <!-- Habitats -->
+    <section id="habitats">
+        <h3>Planet Habitats</h3>
+        <br>
+        <div>
+            <h5>Frostveil-9</h5>
+            <img src="https://picsum.photos/seed/frost/500/350" alt="">
+            <p>A frozen moon with subterranean oceans and glowing caves.</p>
+        </div>
+        <div>
+            <h5>Zephyr Prime</h5>
+            <img src="https://picsum.photos/seed/zephyr/500/350" alt="">
+            <p>Known for floating islands and ultra-light atmosphere gas.</p>
+        </div>
+        <div>
+            <h5>Aurora-51</h5>
+            <img src="https://picsum.photos/seed/aurora/500/350" alt="">
+            <p>Rich with magnetic storms and luminescent plant life.</p>
+        </div>
+        <div>
+            <h5>Crimson Dune World</h5>
+            <img src="https://picsum.photos/seed/crimson/500/350" alt="">
+            <p>Harsh desert planet inhabited by radiation-adapted species.</p>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Genetics -->
+    <section id="genetics">
+        <h3>Genetic Breakdown</h3>
+        <details>
+            <summary>Ice Serpent DNA</summary>
+            <p>Contains cryo-cell structures capable of regenerating in sub-zero environments.</p>
+        </details>
+        <details>
+            <summary>Beetle Titan DNA</summary>
+            <p>Metallic exoskeleton grown through bio-iron absorption.</p>
+        </details>
+        <details>
+            <summary>Cloud Ray DNA</summary>
+            <p>Plasma-light membranes that store stellar radiation.</p>
+        </details>
+    </section>
+    <hr>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h3>Send Interstellar Message</h3>
+        <form>
+            <fieldset>
+                <legend>Communication Form</legend>
+                <br>
+
+                <label>
+                    Explorer Name: <br>
+                    <input type="text"><br><br>
+                </label>
+                <label>
+                    Galaxy of Origin: <br>
+                    <input type="text"><br><br>
+                </label>
+                <label>
+                    Species Report: <br>
+                    <textarea rows="5" cols="40"></textarea><br><br>
+                </label>
+                <label>
+                    Urgency Level: <br>
+                    <select>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select><br><br>
+                </label>
+
+                <button type="submit">Transmit Message</button>
+
+            </fieldset>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>© 2350 Interstellar Wildlife Division</p>
+        <a href="#top">Back to Top</a>
+    </footer>
+
+</body>
+
+</html>

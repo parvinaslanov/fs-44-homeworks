@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+h2,
+h4 {
+    font-family: Montserrat, sans-serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.servicesactive,
+.reasonactive,
+.activecounter,
+.teamboxactive,
+.clientboxactive,
+.newsboxactive {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+.services-box,
+.reason-scroll,
+.scroll-counter,
+.teambox,
+.clientbox,
+.newsbox {
+    opacity: 1;
+    transform: none;
+    transition: all 1s ease-in-out;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.team-box {
+    display: flex;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+#ref-link {
+    margin-top: 60px;
+}
+
+
+.col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.bttn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 28px;
+    background: linear-gradient(90deg, #4f7df9, #1e63dd);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.bttn i {
+    font-size: 20px;
+}
+
+.bttn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(46, 99, 221, 0.3);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-padding {
+    padding: 5rem 0;
+}
+
+.section-heading {
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+.section-heading p {
+    padding-top: 8px;
+    color: #63636b;
+    line-height: 24px;
+}
+
+.section-heading-span {
+    font-size: 1rem;
+    color: #2c7ae7;
+}
+
+.section-heading-h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: Montserrat, sans-serif;
+    color: #3b3b44;
+}
+
+.client-item:hover::after {
+    border-color: #2c7ae7;
+}
+
+.client-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 16px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #303036;
+    height: 100%;
+    padding: 1.5rem 1.5rem 1.75rem;
+    transition: all 0.25s;
+}
+
+.client-item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #d4d4e1;
+    overflow: hidden;
+    pointer-events: none;
+    transition: all 0.25s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.client-item:hover {
+    box-shadow: 2px 4px 20px 1px rgba(45, 45, 45, 0.13);
+}
+
+.client-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.client-img {
+    flex-shrink: 0;
+    width: 4.6875rem;
+    height: 4.6875rem;
+    min-width: 4.6875rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1.25rem;
+    background-color: #ffffff;
+}
+
+.client-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.client-about {
+    padding-top: 0;
+}
+
+.client-about h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.client-about p {
+    margin: 0;
+    color: #63636b;
+    font-size: 0.95rem;
+}
+
+.client-comment {
+    margin-top: 0.75rem;
+    line-height: 1.6;
+    color: #63636b;
+}
+
+.client-comment p {
+    margin-bottom: 0;
+}
